@@ -12,4 +12,6 @@ public interface DepartmentService {
     public List<Department> fetchDepartmentList();
 
     public Department getDepartmentById(Long departmentId);
+
+    public Department updateDepartment(Long departmentId, Department department);
 }
